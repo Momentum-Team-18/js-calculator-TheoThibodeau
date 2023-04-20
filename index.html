@@ -6,26 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
   <div class="calc_layout">
     <div class="calc_boxes">  
       <div>  
-        <form>
-            <input type="button" value="C" class="button"><input type="text" name="display" class="output">
-        </form>
+        <span class="button" id="clearButton">C</span>
+        <input type="text" name="display" id="output">
       </div>
       <div>
-        <input type="button" value="7" class="button"><input type="button" value="8" class="button"><input type="button" value="9" class="button"><input type="button" value="/" class="button">
+        <span class="button numButton">7</span>
+        <span class="button numButton">8</span>
+        <span class="button numButton">9</span>
+        <span class="button">/</span>
       </div> 
       <div>
-        <input type="button" value="4" class="button"><input type="button" value="5" class="button"><input type="button" value="6" class="button"><input type="button" value="x" class="button">
+        <span class="button numButton">4</span>
+        <span class="button numButton">5</span>
+        <span class="button numButton">6</span>
+        <span class="button numButton">x</span>
       </div> 
       <div>
-        <input type="button" value="1" class="button"><input type="button" value="2" class="button"><input type="button" value="3" class="button"><input type="button" value="-" class="button">
+        <span class="button numButton">1</span>
+        <span class="button numButton">2</span>
+        <span class="button numButton">3</span>
+        <span class="button numButton">-</span>
       </div>
       <div>
-        <input type="button" value="0" class="button"><input type="button" value="." class="button"><input type="button" value="=" class="button"><input type="button" value="+" class="button">
+        <span class="button numButton">0</span>
+        <span class="button numButton">.</span>
+        <span class="button" id="equal">=</span>
+        <span class="button numButton">+</span>
       </div>
     </div>
   </div>
