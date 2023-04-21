@@ -32,7 +32,8 @@
     height: 50px;
     width: 50px;
     border: 1px solid lightgray;
-    display: wrap;
+    display: inline-block;
+    align-items: center;
 }
 .button:hover {
     background-color: rgb(124, 124, 146);
