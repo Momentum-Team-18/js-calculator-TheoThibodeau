@@ -17,12 +17,12 @@
 .calc_boxes {
     padding: 20px;
     border-radius: 10px;
-    background-color: greenyellow;
+    background-color: rgb(26, 8, 97);
 }
 
 #output {
-    width: 149px;
-    height: 50px;
+    width: 120px;
+    height: 90px;
     background-color: rgb(202, 218, 202);
     border: 1px solid lightgray;
 }
@@ -34,6 +34,11 @@
     border: 1px solid lightgray;
     display: inline-block;
     align-items: center;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 25px;
 }
 .button:hover {
     background-color: rgb(124, 124, 146);
